@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_layout"
+    style="@style/nsoftware.3ds.Toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:theme="@style/nsoftware.3ds.Theme">
+
+
+    <Button
+        android:id="@+id/cancel"
+        style="@style/nsoftware.3ds.Button.Borderless.Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center_horizontal|top"
+        android:maxLines="1"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:singleLine="true"
+        android:text="@android:string/cancel"
+        android:textAllCaps="false"
+        tools:ignore="ButtonOrder" />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        style="@style/nsoftware.3ds.Toolbar.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:singleLine="true"
+        android:text="@string/secure_checkout"
+        tools:ignore="SelectableText" />
+
+</LinearLayout>

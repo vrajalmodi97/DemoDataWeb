@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DemoDataWeb.iml" filepath="$PROJECT_DIR$/.idea/DemoDataWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alipay/DemoDataWeb.alipay.iml" filepath="$PROJECT_DIR$/.idea/modules/alipay/DemoDataWeb.alipay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DemoDataWeb.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DemoDataWeb.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ipworks3ds/DemoDataWeb.ipworks3ds.iml" filepath="$PROJECT_DIR$/.idea/modules/ipworks3ds/DemoDataWeb.ipworks3ds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oppwa.mobile/DemoDataWeb.oppwa.mobile.iml" filepath="$PROJECT_DIR$/.idea/modules/oppwa.mobile/DemoDataWeb.oppwa.mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oppwa.mobile.threeds/DemoDataWeb.oppwa.mobile.threeds.iml" filepath="$PROJECT_DIR$/.idea/modules/oppwa.mobile.threeds/DemoDataWeb.oppwa.mobile.threeds.iml" />
+    </modules>
+  </component>
+</project>

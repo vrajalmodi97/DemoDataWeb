@@ -1,0 +1,51 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: NGioxVGI+hyglfp3PyLGnqTVcmjDs
+ Ag9gU/47+q1TYs=
+SHA-256-Digest-Manifest: 0/uBnWji8MUOf6+Z4mH9Toq/iISJ/sAGD5I1jb3Hzmc=
+Created-By: 1.8.0_221 (Oracle Corporation)
+
+Name: classes.jar
+SHA-256-Digest: +Nvk7Ec3fXe7nnAwdrO15nHcU5R6ZKX8LSQbaNNzF28=
+
+Name: res/values/values.xml
+SHA-256-Digest: Mm8MUJkirOBzmHISZYEjdDPxaXmkne7RgibIO86Kbc4=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: UvAsWxIgZUW0yi0AYuSsyuDvPBtPLngKAa4ybgQGFPc=
+
+Name: res/drawable/ipworks3ds_collapse_section_indicator.png
+SHA-256-Digest: LB8H8UQVGljNoakBzhqh/t0mAPufbup5e4w3q3y1s/I=
+
+Name: res/layout/activity_nsoftwaresdk_listener.xml
+SHA-256-Digest: rUF8fymwiM8n47vxdKXVfgNcIFEGq0CsZpND6XmaAgY=
+
+Name: res/layout/activity_nsoftwaresdk_html.xml
+SHA-256-Digest: Fkcqonw048TyPjCJ/azPrOsTddX2k/mst1U7bm1C614=
+
+Name: res/drawable/ipworks3ds_warning_indicator.png
+SHA-256-Digest: uWhUbjOsz1EU+2qQKbEiuu2fgrbXUTqTdCIEvVQ10gw=
+
+Name: res/drawable/whitebox_radius_background.xml
+SHA-256-Digest: 1xMAVB29EJYT24nQRG4xqybA5gs3DV42K1dDBprxd74=
+
+Name: R.txt
+SHA-256-Digest: TPKjFE5s1oM/lYFfLoowv8Lp4ttnU1w6L1SsE9o+r1k=
+
+Name: res/drawable/edittext_background.xml
+SHA-256-Digest: kza0mZ6NQ/Rz2atMSzs0Iuow8wx4h9Y+5DWZO8DtHAs=
+
+Name: res/drawable/ipworks3ds_expand_section_indicator.png
+SHA-256-Digest: I2n5cR7jSJYrEYx1sdkBY/UV++KmK510m4clXaLtHGg=
+
+Name: res/layout/nsoftware_toolbar.xml
+SHA-256-Digest: MIRXNdnVThDxurLKe6KYBQdU0XmLl69UpjEGGa2n0xQ=
+
+Name: res/layout/content_nsoftwaresdk_listener.xml
+SHA-256-Digest: o6LKBJU+wrPD5nD5gcIvwnH8qpqB7EdFq4vMKceZ5Qg=
+
+Name: res/layout/nsoftware_prograss_bar_areq.xml
+SHA-256-Digest: K97VguAEdA/xcmmWuRNMqNSAsGz3YmGagRYUk436ZjM=
+
+Name: res/layout/nsoftware_prograss_bar_creq.xml
+SHA-256-Digest: Ko0albMLSjBevvlFrmitvamwfkIU4S+TSjBJu/zwuww=
+

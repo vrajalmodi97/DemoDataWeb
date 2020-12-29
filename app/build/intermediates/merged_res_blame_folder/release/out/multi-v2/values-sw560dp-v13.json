@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw560dp-v13\\values-sw560dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\oppwa.mobile\\build\\.transforms\\f838fe8c7eab10cf2a3425d8cb4a4727\\oppwa.mobile\\res\\values-sw560dp-v13\\values-sw560dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,193,256",
+                        "endColumns": "69,67,62,47",
+                        "endOffsets": "120,188,251,299"
+                    }
+                }
+            ]
+        }
+    ]
+}

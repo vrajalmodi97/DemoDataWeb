@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:ipworks3ds:unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ipworks3ds/build/.transforms/257468b40a6d44a0d122d381e4883455/ipworks3ds_sdk/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/ipworks3ds/build/.transforms/257468b40a6d44a0d122d381e4883455/ipworks3ds_sdk/res" />
+      <root url="file://$PROJECT_DIR$/ipworks3ds/build/.transforms/257468b40a6d44a0d122d381e4883455/ipworks3ds_sdk/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

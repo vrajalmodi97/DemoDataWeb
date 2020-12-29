@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.nsoftware.ipworks3ds.sdk.core.ClientTextChallengeListener">
+
+    <com.nsoftware.ipworks3ds.sdk.core.SDKToolbarLayout
+        android:id="@+id/sdkToolbarView"
+        layout="@layout/nsoftware_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </com.nsoftware.ipworks3ds.sdk.core.SDKToolbarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/content_nsoftwaresdk_listener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </ScrollView>
+
+</LinearLayout>

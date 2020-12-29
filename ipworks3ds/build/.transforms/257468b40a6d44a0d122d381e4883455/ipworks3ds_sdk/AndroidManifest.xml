@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nsoftware.ipworks3ds.sdk"
+    android:versionCode="7557"
+    android:versionName="2.0.7557" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <application android:supportsRtl="true" >
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientTextChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientSingleSelectorChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientMultiSelectChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientOutOfBandChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientWebChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+
+        <receiver android:name="com.nsoftware.ipworks3ds.sdk.core.AppUpgradeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

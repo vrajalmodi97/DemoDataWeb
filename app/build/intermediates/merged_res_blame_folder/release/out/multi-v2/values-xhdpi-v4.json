@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,103",
+                        "endColumns": "47,61",
+                        "endOffsets": "98,160"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\oppwa.mobile\\build\\.transforms\\f838fe8c7eab10cf2a3425d8cb4a4727\\oppwa.mobile\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,193,256",
+                        "endColumns": "69,67,62,47",
+                        "endOffsets": "120,188,251,299"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "165,235,303,366",
+                        "endColumns": "69,67,62,47",
+                        "endOffsets": "230,298,361,409"
+                    }
+                }
+            ]
+        }
+    ]
+}

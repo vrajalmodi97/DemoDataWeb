@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/wallet_holo_blue_light"
+        android:padding="@dimen/custom_dialog_padding">
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_cancel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/item_padding"
+            android:layout_marginTop="32dp"
+            android:drawableStart="@drawable/ic_delete"
+            android:background="@color/red"
+            android:text="@string/btn_delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCancel" />
+
+        <Button
+            android:id="@+id/btnPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:drawableStart="@drawable/ic_payment"
+            android:background="@color/browser_actions_bg_grey"
+            android:padding="@dimen/item_padding"
+            android:text="@string/btn_payment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnDelete" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+
+
+
+
+
+

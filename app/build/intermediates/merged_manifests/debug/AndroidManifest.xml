@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oppwa.mobile.connect.demo"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.oppwa.mobile.connect.service.ConnectService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.oppwa.mobile.connect.checkout.dialog.CheckoutActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/CustomCheckoutTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.oppwa.mobile.connect.dataweb.activity.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.oppwa.mobile.connect.dataweb.activity.CheckoutUIActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <data android:scheme="@string/checkout_ui_callback_scheme" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.oppwa.mobile.connect.demo.com.squareup.picasso"
+            android:exported="false" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.PayResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.AlipayResultActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5OpenAuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity> <!-- Enables the Android Pay API -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientTextChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientSingleSelectorChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientMultiSelectChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientOutOfBandChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+        <activity
+            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientWebChallengeListener"
+            android:label=" "
+            android:theme="@style/nsoftware.3ds.Theme" />
+
+        <receiver android:name="com.nsoftware.ipworks3ds.sdk.core.AppUpgradeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

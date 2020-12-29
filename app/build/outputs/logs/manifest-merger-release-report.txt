@@ -1,0 +1,457 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:1-51:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\bbff6877ad5afecd256f9fb3033472f5\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.vinaygaba:creditcardview:1.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\cc4a799936d09700b7c6cd4e938a1f68\creditcardview-1.0.4\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\7f3fa8d587d4363e1ca9ee9b95b784e2\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-wallet:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e455520e61141d1b3cf5cca9d722027a\play-services-wallet-16.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4fde9b212c43045f9871660e89572f85\jetified-play-services-identity-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\6370e844f77768f692c5d2e4d5304e4d\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\c009a5722a0be9476b5b3db7ef172e15\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\ee6bcf3a013b19e1fb7246dcebec416b\customtabs-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\3cfcfbefe4538851ff3ae5d2d11f0b99\jetified-library-1.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:2:1-62:12
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:2:1-41:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\28e19bcec9b47df9581ba1f6d5bfd47d\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\7c6a262b4f50579ecad6b3724ebe08d9\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\c5686b24c8adfbfccbfe61068ac7c49f\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\b72fa9ed369d9858d0fb5986bb7236fe\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\b625545188a320e0d23b3e969019b092\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\231bd3f62d452c1686a86dceddb50a92\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\69a5a1de08dfe08bfe2a8b98a051a6f6\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\18a721c32b4cc8505cece5feb97571ea\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e6f4a04e02163bf11ecda043117f3475\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\799752f7ab5f42ed6349356992c384fc\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\5929825c857518f2798a6a55425fb08f\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\20678bdc8e9825d9276479d130c67d2a\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\08e734783fefb2b47d7d06e73aba0ffc\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e9cc0f0e0dd2503b113a6576aef0520c\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\04e6b76b6ad86ad2089fb68021b94ebc\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\3331232a1d0540faeecd5909d3ddf883\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\20dfc6e575b6f0806a233fe16bf403a6\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\f25d4240cf20cce77cd04fd4ffcfeaf7\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\5c13844dbd3b484f42417ccecca0e693\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\542c2b681b0773deb7bac1a47324e3f4\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\47a6a4cbe650527abafad251a3895de1\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\b29536638db7292f2819422afa21694f\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\75a0fb48320195389de42f99e74f0605\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\097f413583d095274abac7a6ab27aa97\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0233fffabe21144e50178f9cde4274\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\3ff1dcd229f05d3ed6ea73e9bcec5fe8\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\8dca7e011b2c99528440907406c0541e\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\6798853c956e78fbccb8ca635a9e6671\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:4:5-47
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:24:5-67
+MERGED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:18:5-67
+MERGED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:18:5-67
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:12:5-67
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:8:5-49:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\bbff6877ad5afecd256f9fb3033472f5\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\bbff6877ad5afecd256f9fb3033472f5\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.vinaygaba:creditcardview:1.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\cc4a799936d09700b7c6cd4e938a1f68\creditcardview-1.0.4\AndroidManifest.xml:11:5-14:19
+MERGED from [com.vinaygaba:creditcardview:1.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\cc4a799936d09700b7c6cd4e938a1f68\creditcardview-1.0.4\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4fde9b212c43045f9871660e89572f85\jetified-play-services-identity-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4fde9b212c43045f9871660e89572f85\jetified-play-services-identity-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\6370e844f77768f692c5d2e4d5304e4d\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\6370e844f77768f692c5d2e4d5304e4d\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:19:5-24:19
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:19:5-24:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:22:5-60:19
+MERGED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:22:5-60:19
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:16:5-39:19
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:16:5-39:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:11:9-41
+	android:allowBackup
+		ADDED from [com.vinaygaba:creditcardview:1.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\cc4a799936d09700b7c6cd4e938a1f68\creditcardview-1.0.4\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:14:9-40
+	android:networkSecurityConfig
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:12:9-69
+service#com.oppwa.mobile.connect.service.ConnectService
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:16:9-18:40
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:36:9-38:40
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:17:13-75
+activity#com.oppwa.mobile.connect.checkout.dialog.CheckoutActivity
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:20:9-26:45
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:28:9-33:58
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:28:9-33:58
+	android:launchMode
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:23:13-43
+	android:windowSoftInputMode
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:25:13-55
+	android:exported
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:22:13-37
+	android:configChanges
+		ADDED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:30:13-48
+	android:theme
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:24:13-55
+		REJECTED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:32:13-56
+	tools:replace
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:26:13-42
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:21:13-85
+activity#com.oppwa.mobile.connect.dataweb.activity.MainActivity
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:screenOrientation
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:28:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:33:27-74
+activity#com.oppwa.mobile.connect.dataweb.activity.CheckoutUIActivity
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:36:9-48:20
+	android:screenOrientation
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:39:13-49
+	android:launchMode
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:37:13-56
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/checkout_ui_callback_scheme
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:40:13-47:29
+data
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:41:17-78
+	android:scheme
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:41:23-75
+action#android.intent.action.VIEW
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:45:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:46:17-78
+	android:name
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:46:27-75
+uses-sdk
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\bbff6877ad5afecd256f9fb3033472f5\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\bbff6877ad5afecd256f9fb3033472f5\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.vinaygaba:creditcardview:1.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\cc4a799936d09700b7c6cd4e938a1f68\creditcardview-1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.vinaygaba:creditcardview:1.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\cc4a799936d09700b7c6cd4e938a1f68\creditcardview-1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\7f3fa8d587d4363e1ca9ee9b95b784e2\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\7f3fa8d587d4363e1ca9ee9b95b784e2\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e455520e61141d1b3cf5cca9d722027a\play-services-wallet-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e455520e61141d1b3cf5cca9d722027a\play-services-wallet-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4fde9b212c43045f9871660e89572f85\jetified-play-services-identity-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4fde9b212c43045f9871660e89572f85\jetified-play-services-identity-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\6370e844f77768f692c5d2e4d5304e4d\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\6370e844f77768f692c5d2e4d5304e4d\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\c009a5722a0be9476b5b3db7ef172e15\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\c009a5722a0be9476b5b3db7ef172e15\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\ee6bcf3a013b19e1fb7246dcebec416b\customtabs-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\ee6bcf3a013b19e1fb7246dcebec416b\customtabs-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\3cfcfbefe4538851ff3ae5d2d11f0b99\jetified-library-1.9.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\3cfcfbefe4538851ff3ae5d2d11f0b99\jetified-library-1.9.0\AndroidManifest.xml:8:5-10:41
+MERGED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:7:5-9:41
+MERGED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:7:5-9:41
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:7:5-9:41
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\28e19bcec9b47df9581ba1f6d5bfd47d\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\28e19bcec9b47df9581ba1f6d5bfd47d\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\7c6a262b4f50579ecad6b3724ebe08d9\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\7c6a262b4f50579ecad6b3724ebe08d9\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\c5686b24c8adfbfccbfe61068ac7c49f\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\c5686b24c8adfbfccbfe61068ac7c49f\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\b72fa9ed369d9858d0fb5986bb7236fe\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\b72fa9ed369d9858d0fb5986bb7236fe\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\b625545188a320e0d23b3e969019b092\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\b625545188a320e0d23b3e969019b092\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\231bd3f62d452c1686a86dceddb50a92\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\231bd3f62d452c1686a86dceddb50a92\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\69a5a1de08dfe08bfe2a8b98a051a6f6\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\69a5a1de08dfe08bfe2a8b98a051a6f6\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\18a721c32b4cc8505cece5feb97571ea\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\18a721c32b4cc8505cece5feb97571ea\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e6f4a04e02163bf11ecda043117f3475\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e6f4a04e02163bf11ecda043117f3475\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\799752f7ab5f42ed6349356992c384fc\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\799752f7ab5f42ed6349356992c384fc\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\5929825c857518f2798a6a55425fb08f\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\5929825c857518f2798a6a55425fb08f\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\20678bdc8e9825d9276479d130c67d2a\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\20678bdc8e9825d9276479d130c67d2a\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\08e734783fefb2b47d7d06e73aba0ffc\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\08e734783fefb2b47d7d06e73aba0ffc\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e9cc0f0e0dd2503b113a6576aef0520c\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e9cc0f0e0dd2503b113a6576aef0520c\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\04e6b76b6ad86ad2089fb68021b94ebc\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\04e6b76b6ad86ad2089fb68021b94ebc\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\3331232a1d0540faeecd5909d3ddf883\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\3331232a1d0540faeecd5909d3ddf883\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\20dfc6e575b6f0806a233fe16bf403a6\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\20dfc6e575b6f0806a233fe16bf403a6\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\f25d4240cf20cce77cd04fd4ffcfeaf7\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\f25d4240cf20cce77cd04fd4ffcfeaf7\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\5c13844dbd3b484f42417ccecca0e693\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\5c13844dbd3b484f42417ccecca0e693\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\542c2b681b0773deb7bac1a47324e3f4\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\542c2b681b0773deb7bac1a47324e3f4\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\47a6a4cbe650527abafad251a3895de1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\47a6a4cbe650527abafad251a3895de1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\b29536638db7292f2819422afa21694f\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\b29536638db7292f2819422afa21694f\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\75a0fb48320195389de42f99e74f0605\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\75a0fb48320195389de42f99e74f0605\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\097f413583d095274abac7a6ab27aa97\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\097f413583d095274abac7a6ab27aa97\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0233fffabe21144e50178f9cde4274\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0233fffabe21144e50178f9cde4274\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\3ff1dcd229f05d3ed6ea73e9bcec5fe8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\3ff1dcd229f05d3ed6ea73e9bcec5fe8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\8dca7e011b2c99528440907406c0541e\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\8dca7e011b2c99528440907406c0541e\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\6798853c956e78fbccb8ca635a9e6671\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\6798853c956e78fbccb8ca635a9e6671\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:23:5-79
+MERGED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:19:5-79
+MERGED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:19:5-79
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:13:5-79
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:22:9-24:69
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:22:9-24:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.CAMERA
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:10:22-63
+uses-feature#android.hardware.camera
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:13:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:16:9-57
+activity#io.card.payment.CardIOActivity
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:20:9-22:66
+	android:configChanges
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:22:13-63
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:21:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:9-70
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:19-67
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:9:13-64
+supports-screens
+ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:11:5-16:39
+	android:largeScreens
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:16:9-36
+	android:normalScreens
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:14:9-37
+	android:resizeable
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:15:9-34
+	android:anyDensity
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:12:9-34
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:20:5-76
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:14:5-76
+MERGED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:20:22-73
+uses-library#org.apache.http.legacy
+ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:24:13-50
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:27:9-31:20
+	android:exported
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:30:13-37
+	android:configChanges
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:29:13-85
+	android:name
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:28:13-60
+activity#com.alipay.sdk.app.H5AuthActivity
+ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:32:9-36:20
+	android:exported
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:35:13-37
+	android:configChanges
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:34:13-85
+	android:name
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:33:13-61
+activity#com.alipay.sdk.app.PayResultActivity
+ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:37:9-46:20
+	android:launchMode
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:41:13-48
+	android:exported
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:40:13-36
+	android:configChanges
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:39:13-85
+	android:theme
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:42:13-72
+	android:name
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:38:13-64
+intent-filter#category:name:android.intent.category.DEFAULT
+ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:43:13-45:29
+activity#com.alipay.sdk.app.AlipayResultActivity
+ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:47:9-52:20
+	android:launchMode
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:50:13-44
+	android:exported
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:49:13-36
+	android:theme
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:51:13-72
+	android:name
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:48:13-67
+activity#com.alipay.sdk.app.H5OpenAuthActivity
+ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:53:9-59:20
+	android:screenOrientation
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:57:13-47
+	android:windowSoftInputMode
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:58:13-67
+	android:exported
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:56:13-37
+	android:configChanges
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:55:13-85
+	android:name
+		ADDED from [:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:54:13-65
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:11:22-71
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:19:9-21:36
+	android:value
+		ADDED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:21:13-33
+	android:name
+		ADDED from [:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\f838fe8c7eab10cf2a3425d8cb4a4727\oppwa.mobile\AndroidManifest.xml:20:13-69

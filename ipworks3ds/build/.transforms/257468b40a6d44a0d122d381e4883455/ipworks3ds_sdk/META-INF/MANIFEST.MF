@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_221 (Oracle Corporation)
+
+Name: classes.jar
+SHA-256-Digest: 054BJw09eG9l/0KuMMEhX8WTzGbhkaNYpoC1Q9VkMrQ=
+
+Name: res/values/values.xml
+SHA-256-Digest: lJZYvbBdHm5lzEM5CKzyitHqpQr5Uubj6iBIirsfpuo=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: uiFrxEu9z3prcuQe1hW5qijY/czCK/Lgh0QJnNBcYJo=
+
+Name: res/drawable/ipworks3ds_collapse_section_indicator.png
+SHA-256-Digest: XGfNWlWUb4ozV8P6wKoQcsmIaKH8PtAs9iS8hhC7Qt4=
+
+Name: res/layout/activity_nsoftwaresdk_listener.xml
+SHA-256-Digest: AdYoLeNn/r+2qj4SgQ8UF7tdW1Y+Aa3qZ5BWyOz/+sM=
+
+Name: res/layout/activity_nsoftwaresdk_html.xml
+SHA-256-Digest: xS7cEbpqZ6xSlCuLOqP0D6p2DznYaZk9zFK/9RfQS9k=
+
+Name: res/drawable/ipworks3ds_warning_indicator.png
+SHA-256-Digest: uoWlqfgg2yPYzvc4PvZZ1N+xKQk1Yqw7qMJ9xuKvWJ8=
+
+Name: res/drawable/whitebox_radius_background.xml
+SHA-256-Digest: Q2YD9mzqttJE1/5yaquwq2bt+PPb63dGZnsst+N3HQQ=
+
+Name: R.txt
+SHA-256-Digest: 1BjlbSfGUg6Bz/ONU66wS7Co0nozM9/U3SmMc8RIePI=
+
+Name: res/drawable/edittext_background.xml
+SHA-256-Digest: eNNmwyXmkpWuN2HkYuk1szIEvJu73hOVhgiWqSCOXTY=
+
+Name: res/drawable/ipworks3ds_expand_section_indicator.png
+SHA-256-Digest: O9LS3+5bwB7Z5i+fqJwnybNAU0Hx7I2juEdh9QJDFkA=
+
+Name: res/layout/nsoftware_toolbar.xml
+SHA-256-Digest: WUTzJiUDuWklPuJx7F7oN/jXSVOqoGXDIVCVFVlPgeE=
+
+Name: res/layout/content_nsoftwaresdk_listener.xml
+SHA-256-Digest: WaU591ZH13J6XQLUpJvQSlzikNeTI0Zmj0lqz6KrJ58=
+
+Name: res/layout/nsoftware_prograss_bar_areq.xml
+SHA-256-Digest: OVLcdDZd7X0RiDFR/OX8W/6n2FoFKDO2rg6TOHjUnZM=
+
+Name: res/layout/nsoftware_prograss_bar_creq.xml
+SHA-256-Digest: SFAG4mqshvRYMu39fScvPoSuQhp2P4Sr2uxAIq1D7Cg=
+

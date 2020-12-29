@@ -1,0 +1,314 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oppwa.mobile.connect.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\4f0d1857e74e96f8aec2ed96ffd88095\play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+19
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:5-65
+20-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:22-62
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:10:5-66
+21-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:10:22-63
+22
+23    <uses-feature
+23-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:12:5-14:36
+24        android:name="android.hardware.camera"
+24-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:13:9-47
+25        android:required="false" />
+25-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:14:9-33
+26    <uses-feature
+26-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:15:5-17:36
+27        android:name="android.hardware.camera.autofocus"
+27-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:16:9-57
+28        android:required="false" />
+28-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:17:9-33
+29
+30    <supports-screens
+30-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:11:5-16:39
+31        android:anyDensity="true"
+31-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:12:9-34
+32        android:largeScreens="true"
+32-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:13:9-36
+33        android:normalScreens="true"
+33-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:14:9-37
+34        android:resizeable="true"
+34-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:15:9-34
+35        android:smallScreens="true" />
+35-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:16:9-36
+36
+37    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+37-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:20:5-76
+37-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:20:22-73
+38    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+38-->[:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\b6d13c0cb052a2023c40c9ddeba76046\oppwa.mobile-2.63.0-release\AndroidManifest.xml:11:5-74
+38-->[:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\b6d13c0cb052a2023c40c9ddeba76046\oppwa.mobile-2.63.0-release\AndroidManifest.xml:11:22-71
+39
+40    <application
+40-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:8:5-49:19
+41        android:allowBackup="true"
+41-->[com.vinaygaba:creditcardview:1.0.4] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\cc4a799936d09700b7c6cd4e938a1f68\creditcardview-1.0.4\AndroidManifest.xml:12:9-35
+42        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+42-->[com.android.support:support-compat:28.0.0] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:10:9-43
+45        android:label="@string/app_name"
+45-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:11:9-41
+46        android:networkSecurityConfig="@xml/network_security_config"
+46-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:12:9-69
+47        android:supportsRtl="true"
+47-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:13:9-35
+48        android:testOnly="true"
+49        android:theme="@style/AppTheme" >
+49-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:14:9-40
+50        <service
+50-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:16:9-18:40
+51            android:name="com.oppwa.mobile.connect.service.ConnectService"
+51-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:17:13-75
+52            android:exported="false" />
+52-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:18:13-37
+53
+54        <activity
+54-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:20:9-26:45
+55            android:name="com.oppwa.mobile.connect.checkout.dialog.CheckoutActivity"
+55-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:21:13-85
+56            android:configChanges="orientation"
+56-->[:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\b6d13c0cb052a2023c40c9ddeba76046\oppwa.mobile-2.63.0-release\AndroidManifest.xml:30:13-48
+57            android:exported="false"
+57-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:22:13-37
+58            android:launchMode="singleTop"
+58-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:23:13-43
+59            android:theme="@style/CustomCheckoutTheme"
+59-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:24:13-55
+60            android:windowSoftInputMode="adjustResize" />
+60-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:25:13-55
+61        <activity
+61-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:27:9-35:20
+62            android:name="com.oppwa.mobile.connect.dataweb.activity.MainActivity"
+62-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:28:13-50
+63            android:screenOrientation="portrait" >
+63-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:29:13-49
+64            <intent-filter>
+64-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:30:13-34:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:31:17-69
+65-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:31:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:33:17-77
+67-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:33:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:36:9-48:20
+71            android:name="com.oppwa.mobile.connect.dataweb.activity.CheckoutUIActivity"
+71-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:37:13-56
+72            android:launchMode="singleTask"
+72-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:38:13-44
+73            android:screenOrientation="portrait" >
+73-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:39:13-49
+74            <intent-filter>
+74-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:40:13-47:29
+75                <data android:scheme="@string/checkout_ui_callback_scheme" />
+75-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:41:17-78
+75-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:41:23-75
+76
+77                <action android:name="android.intent.action.VIEW" />
+77-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:43:17-69
+77-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:43:25-66
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:45:17-76
+79-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:45:27-73
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:46:17-78
+80-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:46:27-75
+81            </intent-filter>
+82        </activity>
+83        <activity
+83-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\2852bd6050fe4c33722ed5c5459d2e80\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\837479220f18908453c1581b70d8fcdf\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+91
+92        <activity
+92-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:20:9-22:66
+93            android:name="io.card.payment.CardIOActivity"
+93-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:21:13-58
+94            android:configChanges="keyboardHidden|orientation" />
+94-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:22:13-63
+95        <activity android:name="io.card.payment.DataEntryActivity" />
+95-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:9-70
+95-->[io.card:android-sdk:5.5.1] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\46426a3f6feec1c21c2041e1f106d671\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:19-67
+96
+97        <provider
+97-->[com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+98            android:name="com.squareup.picasso.PicassoProvider"
+98-->[com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:9:13-64
+99            android:authorities="com.oppwa.mobile.connect.demo.com.squareup.picasso"
+99-->[com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:10:13-72
+100            android:exported="false" />
+100-->[com.squareup.picasso:picasso:2.71828] C:\Users\Peter\.gradle\caches\transforms-2\files-2.1\40ad6f827aed03f9b8621602765bd149\picasso-2.71828\AndroidManifest.xml:11:13-37
+101
+102        <uses-library
+102-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:23:9-25:40
+103            android:name="org.apache.http.legacy"
+103-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:24:13-50
+104            android:required="false" />
+104-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:25:13-37
+105
+106        <activity
+106-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:27:9-31:20
+107            android:name="com.alipay.sdk.app.H5PayActivity"
+107-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:28:13-60
+108            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+108-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:29:13-85
+109            android:exported="false" >
+109-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:30:13-37
+110        </activity>
+111        <activity
+111-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:32:9-36:20
+112            android:name="com.alipay.sdk.app.H5AuthActivity"
+112-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:33:13-61
+113            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+113-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:34:13-85
+114            android:exported="false" >
+114-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:35:13-37
+115        </activity>
+116        <activity
+116-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:37:9-46:20
+117            android:name="com.alipay.sdk.app.PayResultActivity"
+117-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:38:13-64
+118            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+118-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:39:13-85
+119            android:exported="true"
+119-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:40:13-36
+120            android:launchMode="singleInstance"
+120-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:41:13-48
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+121-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:42:13-72
+122            <intent-filter>
+122-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:43:13-45:29
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:45:17-76
+123-->C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\app\src\main\AndroidManifest.xml:45:27-73
+124            </intent-filter>
+125        </activity>
+126        <activity
+126-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:47:9-52:20
+127            android:name="com.alipay.sdk.app.AlipayResultActivity"
+127-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:48:13-67
+128            android:exported="true"
+128-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:49:13-36
+129            android:launchMode="singleTask"
+129-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:50:13-44
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+130-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:51:13-72
+131        </activity>
+132        <activity
+132-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:53:9-59:20
+133            android:name="com.alipay.sdk.app.H5OpenAuthActivity"
+133-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:54:13-65
+134            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+134-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:55:13-85
+135            android:exported="false"
+135-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:56:13-37
+136            android:screenOrientation="behind"
+136-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:57:13-47
+137            android:windowSoftInputMode="adjustResize|stateHidden" >
+137-->[:alipay] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\alipay\build\.transforms\21b61e92896922ac67f5f6e52a306c9d\alipaySdk-15.7.4\AndroidManifest.xml:58:13-67
+138        </activity> <!-- Enables the Android Pay API -->
+139        <meta-data
+139-->[:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\b6d13c0cb052a2023c40c9ddeba76046\oppwa.mobile-2.63.0-release\AndroidManifest.xml:19:9-21:36
+140            android:name="com.google.android.gms.wallet.api.enabled"
+140-->[:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\b6d13c0cb052a2023c40c9ddeba76046\oppwa.mobile-2.63.0-release\AndroidManifest.xml:20:13-69
+141            android:value="true" />
+141-->[:oppwa.mobile] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\oppwa.mobile\build\.transforms\b6d13c0cb052a2023c40c9ddeba76046\oppwa.mobile-2.63.0-release\AndroidManifest.xml:21:13-33
+142
+143        <activity
+143-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:12:9-15:58
+144            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientTextChallengeListener"
+144-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:13:13-89
+145            android:label=" "
+145-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:14:13-30
+146            android:theme="@style/nsoftware.3ds.Theme" />
+146-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:15:13-55
+147        <activity
+147-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:16:9-19:58
+148            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientSingleSelectorChallengeListener"
+148-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:17:13-99
+149            android:label=" "
+149-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:18:13-30
+150            android:theme="@style/nsoftware.3ds.Theme" />
+150-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:19:13-55
+151        <activity
+151-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:20:9-23:58
+152            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientMultiSelectChallengeListener"
+152-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:21:13-96
+153            android:label=" "
+153-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:22:13-30
+154            android:theme="@style/nsoftware.3ds.Theme" />
+154-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:23:13-55
+155        <activity
+155-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:24:9-27:58
+156            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientOutOfBandChallengeListener"
+156-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:25:13-94
+157            android:label=" "
+157-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:26:13-30
+158            android:theme="@style/nsoftware.3ds.Theme" />
+158-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:27:13-55
+159        <activity
+159-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:28:9-31:58
+160            android:name="com.nsoftware.ipworks3ds.sdk.core.ClientWebChallengeListener"
+160-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:29:13-88
+161            android:label=" "
+161-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:30:13-30
+162            android:theme="@style/nsoftware.3ds.Theme" />
+162-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:31:13-55
+163
+164        <receiver android:name="com.nsoftware.ipworks3ds.sdk.core.AppUpgradeReceiver" >
+164-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:33:9-37:20
+164-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:33:19-86
+165            <intent-filter>
+165-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:34:13-36:29
+166                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+166-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:35:17-84
+166-->[:ipworks3ds] C:\Users\Peter\AndroidStudioProjects\DemoDataWeb\ipworks3ds\build\.transforms\257468b40a6d44a0d122d381e4883455\ipworks3ds_sdk\AndroidManifest.xml:35:25-81
+167            </intent-filter>
+168        </receiver>
+169    </application>
+170
+171</manifest>

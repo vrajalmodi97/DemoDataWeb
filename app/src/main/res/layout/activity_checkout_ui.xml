@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CheckoutUIActivity">
+    <RelativeLayout
+        android:layout_marginTop="@dimen/item_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvProduct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="20dp">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/button_proceed_to_checkout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/item_margin_bottom"
+                android:src="@drawable/ic_cart"
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/button_register_card"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/item_margin_bottom"
+                android:src="@drawable/ic_credit_card"
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/button_proceed_card_exists"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/item_margin_bottom"
+                android:src="@drawable/ic_payments"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

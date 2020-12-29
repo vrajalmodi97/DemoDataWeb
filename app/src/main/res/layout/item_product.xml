@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/wallet_holo_blue_light"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/item_margin_bottom"
+    android:layout_height="@dimen/item_product">
+
+    <LinearLayout
+        android:padding="@dimen/card_padding"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_product_linear">
+
+        <ImageView
+            android:id="@+id/img_product"
+            android:layout_width="@dimen/item_img_product_width"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:padding="@dimen/item_padding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/item_title_text"
+                android:id="@+id/title_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_title_default"/>
+
+            <TextView
+                android:textSize="@dimen/item_description_text"
+                android:id="@+id/title_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_description_default"/>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add to Cart"
+                    android:buttonTint="@color/orange"
+                    android:id="@+id/chProduct"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_product_line"
+        android:background="@color/accentColor"/>
+
+
+</LinearLayout>

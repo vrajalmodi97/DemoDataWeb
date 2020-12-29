@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="sdk_button_min_height">54dp</dimen>
+    <dimen name="sdk_toolbar_text_size">20dp</dimen>
+    <string name="add_to_whitelist">add to whitelist</string>
+    <string name="app_moved_to_background">App moved to background.</string>
+    <string name="app_name">IPWorks3DS_SDK</string>
+    <string name="ds_logo">DS logo</string>
+    <string name="expandableinfolabel">expandableinfolabel</string>
+    <string name="expandableinfotext">expandableinfotext</string>
+    <string name="infoheader">infoheader</string>
+    <string name="infolabel">infolabel</string>
+    <string name="infotext">infotext</string>
+    <string name="issuerimage">issuerImage</string>
+    <string name="psimage">psImage</string>
+    <string name="resend">Resend</string>
+    <string name="secure_checkout">SECURE CHECKOUT</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="warningimage">warningImage</string>
+    <string name="whyinfolabel">whyinfolabel</string>
+    <string name="whyinfotext">whyinfotext</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light"/>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="nsoftware"/>
+    <style name="nsoftware.3ds"/>
+    <style name="nsoftware.3ds.Button">
+        <item name="android:minHeight">@dimen/sdk_button_min_height</item>
+    </style>
+    <style name="nsoftware.3ds.Button.Borderless" parent="Widget.AppCompat.Button.Borderless"/>
+    <style name="nsoftware.3ds.Button.Borderless.Cancel">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="nsoftware.3ds.Button.Continue"/>
+    <style name="nsoftware.3ds.Button.Next"/>
+    <style name="nsoftware.3ds.Button.Resend"/>
+    <style name="nsoftware.3ds.Button.Verify"/>
+    <style name="nsoftware.3ds.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#00796B</item>
+        <item name="colorAccent">#009688</item>
+    </style>
+    <style name="nsoftware.3ds.Toolbar" parent="@android:style/TextAppearance.Large">
+        <item name="android:textIsSelectable">false</item>
+    </style>
+    <style name="nsoftware.3ds.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sdk_toolbar_text_size</item>
+        <item name="android:gravity">start</item>
+    </style>
+</resources>

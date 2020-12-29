@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:oppwa.mobile.threeds:unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/oppwa.mobile.threeds/build/.transforms/dd3b4c53d10a902ce41e3b3e62e8d2eb/oppwa.mobile.threeds-1.0.0-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/oppwa.mobile.threeds/build/.transforms/dd3b4c53d10a902ce41e3b3e62e8d2eb/oppwa.mobile.threeds-1.0.0-release/res" />
+      <root url="file://$PROJECT_DIR$/oppwa.mobile.threeds/build/.transforms/dd3b4c53d10a902ce41e3b3e62e8d2eb/oppwa.mobile.threeds-1.0.0-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

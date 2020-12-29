@@ -1,0 +1,4 @@
+include ':oppwa.mobile.threeds'
+include ':ipworks3ds'
+include ':oppwa.mobile'
+include ':app', ':alipay', ':oppwa.mobile'

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gereed"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alles weergeven"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"UIT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AAN"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"verwijderen"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Functie +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"spatie"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Delen met <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <string name="checkout_auth_confirm_payment">Bevestig betaling</string>
+    <string name="checkout_choose_card_type">Kies kaarttype</string>
+    <string name="checkout_error_account_holder_invalid">Naam kaarthouder is ongeldig</string>
+    <string name="checkout_error_bic_bank_code_invalid">BIC of bankcode is ongeldig</string>
+    <string name="checkout_error_card_holder_invalid">Naam kaarthouder is niet geldig</string>
+    <string name="checkout_error_card_number_invalid">Kaartnummer is niet geldig</string>
+    <string name="checkout_error_email_invalid">Ongeldige e-mail</string>
+    <string name="checkout_error_expiration_date">Kaart is verlopen</string>
+    <string name="checkout_error_expiration_date_invalid">Vervaldatum is niet geldig, vul in als MM/JJ of MM/JJJJ</string>
+    <string name="checkout_error_iban_account_number_invalid">IBAN of bankrekeningnummer is ongeldig</string>
+    <string name="checkout_error_iban_invalid">IBAN is ongeldig</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Ongeldig mobiel telefoonnummer</string>
+    <string name="checkout_error_national_identifier_invalid">Ongeldig burgerservicenummer</string>
+    <string name="checkout_error_security_code_invalid">Veiligheidscode moet de 3 laatste cijfers op de achterkant van je kaart bevatten</string>
+    <string name="checkout_error_security_code_invalid_amex">Veligheidscode moet het 4-cijferige nummer op de voorkant van je kaart bevatten</string>
+    <string name="checkout_fingerprint_cancel">Annuleer</string>
+    <string name="checkout_fingerprint_enter_pin">Voer pincode in</string>
+    <string name="checkout_fingerprint_not_recognized">Vingerafdruk niet herkend, probeer opnieuw</string>
+    <string name="checkout_fingerprint_success">Vingeradruk herkend</string>
+    <string name="checkout_fingerprint_touch_sensor">Vingerafdrukscanner</string>
+    <string name="checkout_helper_bic_bank_code">BIC of bankcode</string>
+    <string name="checkout_helper_card_holder">Naam zoals op de kaart staat</string>
+    <string name="checkout_helper_card_number">Lange nummer op de voorkant van de kaart</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Vul in als MM/JJ of MM/JJJJ</string>
+    <string name="checkout_helper_iban">Het IBAN (International Bank Account Number) van deze rekening</string>
+    <string name="checkout_helper_iban_account_number">IBAN of bankrekeningnummer</string>
+    <string name="checkout_helper_national_identifier">Burgerservicenummer</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">Laatste 3 cijfers op de achterkant van je kaart</string>
+    <string name="checkout_helper_security_code_amex">4-cijferige code op de voorkant van je kaart</string>
+    <string name="checkout_layout_hint_card_cvv">Veiligheidscode of CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Vervaldatum</string>
+    <string name="checkout_layout_hint_card_holder">Naam kaarthouder</string>
+    <string name="checkout_layout_hint_card_number">Creditcardnummer</string>
+    <string name="checkout_layout_hint_country_code">Landcode</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Rekeninghouder</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">E-mail</string>
+    <string name="checkout_layout_hint_national_identifier">Burgerservicenummer</string>
+    <string name="checkout_layout_hint_phone_number">Mobiel telefoonnummer</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Accepteer de transactie alsjeblieft met je pin.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Creditcards</string>
+    <string name="checkout_layout_text_finnish">Finse</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_total">Totaal</string>
+    <string name="checkout_layout_text_other_payment_methods">Andere betaalmethodes</string>
+    <string name="checkout_layout_text_pay">Betaal</string>
+    <string name="checkout_layout_text_pay_amount">Betaal %s</string>
+    <string name="checkout_layout_text_payment_info">Betaalinformatie</string>
+    <string name="checkout_layout_text_push_notification_sent">We sturen een pushbericht naar je mobiele apparaat.</string>
+    <string name="checkout_layout_text_register">Registreer</string>
+    <string name="checkout_layout_text_select_bank">Selecteer bank</string>
+    <string name="checkout_layout_text_select_country">Selecteer land</string>
+    <string name="checkout_layout_text_select_payment_method">Betaalmethodes</string>
+    <string name="checkout_layout_text_stored_payment_methods">Opgeslagen betaalmethodes</string>
+    <string name="checkout_layout_text_swedish">Zweedse</string>
+    <string name="checkout_layout_text_terms_and_conditions">Algemene voorwaarden</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">Ik heb de algemene voorwaarden gelezen en ga ermee akkoord</string>
+    <string name="checkout_layout_text_total_amount">Totaalbedrag</string>
+    <string name="checkout_number_of_installments">Aantal termijnen</string>
+    <string name="checkout_payment_details">Betaalgegevens</string>
+    <string name="checkout_processing">Verwerken</string>
+    <string name="checkout_tokenization_checkbox">Sla betaalgegevens op voor toekomstig gebruik</string>
+    <string name="checkout_transaction_run">Even geduld alsjeblieft</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Inschakelen"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> werkt niet, tenzij je Google Play-services inschakelt."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-services inschakelen"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installeren"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play-services ophalen"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Beschikbaarheid van Google Play-services"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fout met Google Play-services"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ondervindt problemen met Google Play-services. Probeer het opnieuw."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Updaten"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd, tenzij je Google Play-services updatet."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play-services updaten"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Openen op telefoon"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Inloggen"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Inloggen met Google"</string>
+    <string name="klarna_payments_paylater">Achteraf betalen.</string>
+    <string name="klarna_payments_paynow">Betaal nu.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Zoeken"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Kopen met Google"</string>
+</resources>

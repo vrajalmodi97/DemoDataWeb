@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cancel.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\ic_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_menu_background.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\button_menu_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_visa.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\visa.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_payments.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\ic_payments.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item_list_dialog_list_dialog_item.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\layout\\fragment_item_list_dialog_list_dialog_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog_form.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\layout\\custom_dialog_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_credit_card.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\bg_credit_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_credit.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\card_credit.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_payment.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\ic_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_checkout_ui.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\layout\\activity_checkout_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_credit_card.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\ic_credit_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lat.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\lat.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sample.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\sample.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camisa.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\camisa.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item_list_dialog_list_dialog.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\layout\\fragment_item_list_dialog_list_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_dialog.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\layout\\card_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_base_background.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\button_base_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart.xml.flat",
+        "source": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\src\\main\\res\\drawable\\ic_cart.xml"
+    }
+]
