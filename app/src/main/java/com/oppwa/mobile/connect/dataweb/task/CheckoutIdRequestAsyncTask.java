@@ -120,7 +120,7 @@ public class CheckoutIdRequestAsyncTask extends AsyncTask<String, Void, String> 
         URL url;
         HttpURLConnection connection = null;
         String checkoutId = null;
-
+        Log.e("URL=========>>>", urlString);
         try {
             url = new URL(urlString);
             connection = (HttpURLConnection) url.openConnection();
@@ -128,7 +128,7 @@ public class CheckoutIdRequestAsyncTask extends AsyncTask<String, Void, String> 
 
             JsonReader reader = new JsonReader(
                     new InputStreamReader(connection.getInputStream(), "UTF-8"));
-
+            reader.setLenient(true);
             CheckoutResponse checkoutResponse = ReadCheckoutResponse(reader);
             LogicDataWeb checkoutObj = new LogicDataWeb(checkoutResponse);
             checkoutId = checkoutObj.getCheckoutId();

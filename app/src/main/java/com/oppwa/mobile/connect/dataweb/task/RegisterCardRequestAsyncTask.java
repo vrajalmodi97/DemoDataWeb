@@ -77,7 +77,7 @@ public class RegisterCardRequestAsyncTask extends AsyncTask<String, Void, String
 
             JsonReader reader = new JsonReader(
                     new InputStreamReader(connection.getInputStream(), "UTF-8"));
-
+            reader.setLenient(true);
             CheckoutResponse checkoutResponse = ReadCheckoutResponse(reader);
             LogicDataWeb checkoutObj = new LogicDataWeb(checkoutResponse);
             checkoutId = checkoutObj.getCheckoutId();

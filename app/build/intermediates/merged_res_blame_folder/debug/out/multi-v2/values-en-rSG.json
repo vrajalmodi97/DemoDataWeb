@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Peter\\AndroidStudioProjects\\DemoDataWeb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+            "outputFile": "C:\\Users\\jayde\\Desktop\\mSDK_Android\\DemoDataWeb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Peter\\.gradle\\caches\\transforms-2\\files-2.1\\e455520e61141d1b3cf5cca9d722027a\\play-services-wallet-16.0.1\\res\\values-en-rSG\\values.xml",
+                    "source": "C:\\Users\\jayde\\.gradle\\caches\\transforms-2\\files-2.1\\e455520e61141d1b3cf5cca9d722027a\\play-services-wallet-16.0.1\\res\\values-en-rSG\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

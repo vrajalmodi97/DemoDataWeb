@@ -8,6 +8,9 @@ import android.support.annotation.Nullable;
 import com.google.android.gms.wallet.PaymentDataRequest;
 import com.google.android.gms.wallet.WalletConstants;
 import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import com.oppwa.mobile.connect.checkout.dialog.CheckoutActivity;
 import com.oppwa.mobile.connect.checkout.dialog.GooglePayHelper;
 import com.oppwa.mobile.connect.checkout.meta.CheckoutSettings;
@@ -18,6 +21,7 @@ import com.oppwa.mobile.connect.dataweb.model.CheckoutResponse;
 import com.oppwa.mobile.connect.dataweb.model.DWCheckOutRequest;
 import com.oppwa.mobile.connect.dataweb.model.DWStatusRsp;
 import com.oppwa.mobile.connect.dataweb.model.LogicDataWeb;
+import com.oppwa.mobile.connect.dataweb.model.StatusResponse;
 import com.oppwa.mobile.connect.dataweb.model.TokenizeCart;
 import com.oppwa.mobile.connect.dataweb.task.CardTokenPaymentRequestAsyncTask;
 import com.oppwa.mobile.connect.dataweb.task.CardTokenPaymentRequestListener;
@@ -36,6 +40,8 @@ import com.oppwa.mobile.connect.provider.TransactionType;
 import com.pixplicity.easyprefs.library.Prefs;
 
 import static com.oppwa.mobile.connect.dataweb.model.DWStatusRsp.dWStatus.dwStatusRsp;
+
+import org.json.JSONObject;
 
 
 /**
@@ -116,13 +122,11 @@ public class BasePaymentActivity extends BaseActivity
                         hideProgressDialog();
                     }
 
+
                     break;
                 case CheckoutActivity.RESULT_CANCELED:
                     hideProgressDialog();
                     showAlertDialog(R.string.error_message_cancel);
-                    break;
-                case 9896:
-                    System.out.println("Entro");
                     break;
                 case CheckoutActivity.RESULT_ERROR:
                     //Se agrego
@@ -196,11 +200,12 @@ public class BasePaymentActivity extends BaseActivity
                     "\n\nDetailAuth:" + (dwStatusRsp.getDetailAuth() == null ? "--": dwStatusRsp.getDetailAuth());
 
             //Tokenize
-            if (dwStatusRsp.getCodRsp().equals("OK") && dwStatusRsp.getResultId().length() > 0) {
-                TokenizeCart tokenize = new TokenizeCart(dwStatusRsp.getResultId(), dwStatusRsp.getCardBrand(),  dwStatusRsp.getCardHolder(), dwStatusRsp.getCardBin(), dwStatusRsp.getCardLast4());
-                Gson gson = new Gson();
+            Gson gson = new Gson();
+            StatusResponse statusResponse = gson.fromJson(paymentStatus, StatusResponse.class);
+            if (statusResponse.getId().length() > 0) {
+                TokenizeCart tokenize = new TokenizeCart(statusResponse.getId(), statusResponse.getPaymentBrand(),  statusResponse.getCard().getHolder(), statusResponse.getCard().getBin(), statusResponse.getCard().getLast4Digits());
                 String json = gson.toJson(tokenize);
-                Prefs.putString(dwStatusRsp.getResultId(), json);
+                Prefs.putString(statusResponse.getId(), json);
             }
         }
 

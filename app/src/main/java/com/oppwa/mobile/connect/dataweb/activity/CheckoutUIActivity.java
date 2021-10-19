@@ -29,6 +29,8 @@ import com.oppwa.mobile.connect.dataweb.model.TokenizeCart;
 import com.oppwa.mobile.connect.dataweb.task.CardIdPaymentListener;
 import com.oppwa.mobile.connect.dataweb.utils.GetIp;
 import com.oppwa.mobile.connect.provider.Connect;
+import com.oppwa.mobile.connect.threeds.OppThreeDSService;
+import com.oppwa.mobile.connect.threeds.constant.TransactionMode;
 import com.pixplicity.easyprefs.library.Prefs;
 
 import java.util.ArrayList;
@@ -61,6 +63,21 @@ public class CheckoutUIActivity extends BasePaymentActivity implements CardIdPay
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        if(Constants.MODE_3DS){
+            //Config_TipoPayment
+            String Config_Brands = Constants.tpayment;
+            List<String> paymentBrands = new ArrayList<String>();
+            String[] brands = Config_Brands.split(",");
+            for (String br : brands)
+            {
+                paymentBrands.add(br);
+            }
+            OppThreeDSService.getInstance().initialize(
+                    getApplicationContext(),
+                    TransactionMode.LIVE,
+                    paymentBrands);
+        }
 
         setContentView(R.layout.activity_checkout_ui);
 
@@ -247,6 +264,7 @@ public class CheckoutUIActivity extends BasePaymentActivity implements CardIdPay
         chk.setShopperResultUrl("checkoutui://callback");
         Intent intent = chk.createCheckoutActivityIntent(this);
         startActivityForResult(intent, CheckoutActivity.REQUEST_CODE_CHECKOUT);
+
     }
 
     public void startDialog(int llR, final String cardID){

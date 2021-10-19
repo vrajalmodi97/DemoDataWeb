@@ -26,13 +26,14 @@ public class Constants {
     public static final String DEFAULT_TOKENIZE = "1";
     public static final String DEFAUL_LANGUAGE = "en_US";
     public static final String DEFAUL_TYPE_PAYMENT = "0";
+    public static final Boolean MODE_3DS = true;
 
     //Conection
-    public static final String SCHEME = "https";
-    public static final String HOST = "msdk.firmasegura.com.ec";
-    public static final String PATH_CHECKOUT  = "/msdkApi/checkout";
-    public static final String PATH_PAYMENT = "/msdkApi/status";
-    public static final String PATH_TOKEN_CREATE = "/msdkApi/token_create";
-    public static final String PATH_TOKEN_DELETE = "/msdkApi/token_delete";
-    public static final String PATH_TOKEN_PAYMENT = "/msdkApi/token_payment";
+    public static final String SCHEME = "http";
+    public static final String HOST = "192.168.29.73/mSDK";
+    public static final String PATH_CHECKOUT  = "/msdkApi.php/checkout";
+    public static final String PATH_PAYMENT = "/msdkApi.php/status";
+    public static final String PATH_TOKEN_CREATE = "/msdkApi.php/token_create";
+    public static final String PATH_TOKEN_DELETE = "/msdkApi.php/token_delete";
+    public static final String PATH_TOKEN_PAYMENT = "/msdkApi.php/token_payment";
 }

@@ -9,7 +9,7 @@ public class ConfigResponse{
     String configSkipCVV = "true";
     String configTokenize = "1";
     String pagoDiferidos = "3,6,9";
-    String estiloIdioma = "es_ES";
+    String estiloIdioma = "en";
 
     public String getConfigBrands() {
         return configBrands;
